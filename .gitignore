@@ -1,0 +1,50 @@
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Node / web build files
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python cache/scripts
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Generated archives
+*.zip
+*.tar
+*.gz
+
+# Optional: large local medical image datasets
+datasets/
+image-database/
+raw-images/
